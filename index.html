@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <input id="inputNome" type="text" value=""
+        placeholder="Nome e Cognome">
+      <input id="inputKm" type="text" value=""
+        placeholder="Km da percorre">
+      <input id="inputEta" list="eta">
+      <datalist id="eta">
+        <option id="input" value="Maggiorenne"></option>
+        <option id="input" value="Minorenne"></option>
+        <option id="input" value="Over65"></option>
+      </datalist>
+      <button id="btn-input">Genera Biglietto</button>
+      <h4 id="output-name"></h4>
+    </div>
+
+    <p id="prezzo-biglietto"></p>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
